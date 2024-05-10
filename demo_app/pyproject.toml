@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "demo-app"
+version = "0.1.0"
+description = ""
+authors = ["juancho0809 <juandiegolozada123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xgboost = "^2.0.3"
+dill = "^0.3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+pylink = "^0.3.3"
+black = "^24.4.2"
+pre-commit = "^3.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
